@@ -62,14 +62,17 @@ nav {
 }
 
 /* LOGO  */
-.nav__logo a {
-  font-size: 1.5rem;
+/*.nav__logo a {
+  font-size: 1rem;
   font-weight: 600;
   font-family: var(--header-font);
   color: var(--white);
   line-height: 1.5rem;
+} */
+.nav__logo {
+  width: 200px;
+  height: auto;
 }
-
 /* Hamburger menu  */
 .nav__menu__btn {
   font-size: 1.5rem;
@@ -137,7 +140,7 @@ nav {
 .header__container::before {
   position: absolute;
   content: "SKYRIS";
-  top: 0;
+  top: 15rem;
   right: 0;
   color: var(--white);
   font-size: 15rem;
